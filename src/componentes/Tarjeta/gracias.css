@@ -1,0 +1,28 @@
+.Container_tarjetaa{
+    background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);
+    font-size: 50px;
+    text-align: center; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 250px;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.container_gracias{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    position: absolute;
+    padding-left: 15%;
+  z-index: -1;
+    background-color: rgb(17, 17, 17);
+}
+.animacion{
+   
+    height: 800px;
+}
+
+

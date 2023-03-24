@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+
+}
+
+
+/*-----------header---------*/
+header{
+  width: 100%;
+  min-height: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content:space-between;
+  padding: 1rem;
+  align-items: center;
+  flex-flow: row wrap;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: rgb(8, 8, 8) ;
+  box-shadow: 0 5px 10px #414242a4;
+  z-index: 1;
+  
+}
+a{
+  color: rgb(185, 175, 30);
+  text-decoration: none;
+
+}
+
+li{
+  list-style: none;
+}
+header ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+}
+
+header ul li{
+  margin: 0 2em;
+}
+
+header ul li a{
+  font-weight: bold;
+}
+
+header .cart{
+  position: relative;
+  cursor: pointer ;
+}
+
+header .cart {
+  width: 45px;
+  height: 45px;
+}
+
+.Cabecera-button{
+  width: 50px;
+  background-color: rgb(53, 51, 51);
+  display: none;
+  box-shadow: 5px 5px 5px #707070a4;
+  fill: #ffffff;
+  cursor: pointer;
+  
+}
+
+header .cart span{
+  position: absolute;
+  top: -1rem;
+  right: -1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+ 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(20, 19, 19);
+  padding: 0rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #edff46;
+}
+
+.titulo{
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-bottom: 16px;
+  color:  #edff46;
+
+}
+
+.avatar{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 60px;
+  
+}
+.item{
+  margin-top: 180px;
+  align-items: center;
+  justify-content:space-between;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.item p {
+  color: black;
+ display: flex;
+ justify-content: center;
+}
+
+
+/*----------------responsive---------*/
+@media screen and (max-width:480px) {
+  header{
+    background-color: rgb(8, 8, 8) ;
+    border-radius: 0 0px 50% 0px;
+    transition: all .6s ease;
+  }
+  .logo-logo{
+    margin-left: 42%;
+  }
+  .Cabecera-button{
+    display: flex;
+    margin-left: 80%;
+  }
+  .Cabecera-nav{
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    overflow: hidden;
+    opacity: 0;
+    transition: all .5s ease;
+    
+  }
+  .Cabecera-nav.isActive{
+   opacity: 1;
+    height: 80vh;
+    background-color: #030303;
+    
+  }
+
+  .Cabecera-ul{
+    flex-direction: column;
+    padding-bottom: 80%;
+    margin-left: 2%
+  }
+  .Cabecera-li{
+    margin: .5em 0;
+    
+   
+  }
+
+  .Cabecera-li:hover{
+    box-shadow: 0 5px 10px #1acfcf;
+  }
+
+}
+
+
+
+/*-------tarjeta credito-----*/
+
+.card-body{
+  box-shadow: 0 0 10px #dadada;
+  display: flex;
+  flex-direction: column;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 260px;
+ margin-bottom: 73px;
+ 
+ 
+}
+
+
+
+.card{
+  
+ position: relative;
+  box-shadow: 0 0 20px #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #444442;
+  color: #dadada;
+  overflow-y:hidden;
+}
+.form-group{
+  
+  margin-top:10px ;
+  font-weight: 500;  
+}
