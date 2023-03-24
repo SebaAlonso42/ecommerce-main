@@ -6,6 +6,6 @@ El proyecto se encuentra realizado con css y además fue diseñado para que se a
 
 ## Dependencias utilizadas
 
-se instalaron las siguientes dependencias:
-lottie-react: para generar un fondo animado luego de realizada la compra
-react-credit-cards-2: para desarollar una simulación de metodo de pago con tarjeta
+Se instalaron las siguientes dependencias:
+lottie-react: para generar un fondo animado luego de realizada la compra.
+react-credit-cards-2: para desarollar una simulación de metodo de pago con tarjeta.
